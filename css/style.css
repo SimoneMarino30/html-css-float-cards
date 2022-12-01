@@ -5,3 +5,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+img {
+    max-width: 100%;
+}
+
+/* Clearfix */
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Utils */
+
+body {
+    font-family: 'Fredoka One', cursive;
+}
+
+header {
+    text-align: center;
+}
+.container {
+    margin: 0 110px 0 110px;
+}
+
+.card {
+    width: 400px;
+    height: 150px;
+    background-image: url(../img/male1.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    max-width: 100%;
+    text-align: center;
+}
+.img > .card {
+    float: left;
+}
+
+.card > span {
+    line-height: 35px;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+section > .card {
+    float: left;
+    
+}
+
+
