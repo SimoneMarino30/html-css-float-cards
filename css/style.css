@@ -33,16 +33,50 @@ header {
 
 .card {
     width: 400px;
-    height: 150px;
-    background-image: url(../img/male1.png);
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-color: black;
+    height: 120px;
+    background-color: #0F0E17;
     color: white;
     padding: 20px 0;
     max-width: 100%;
-    text-align: center;
+    /* text-align: center; */
 }
+
+.card.marco {
+    background-image: url(../img/male1.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.card.laura {
+    background-image: url(../img/female1.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.card.giorgio {
+    background-image: url(../img/male2.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.card.marta {
+    background-image: url(../img/female2.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.card.roberto {
+    background-image: url(../img/male3.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
+.card.daniela {
+    background-image: url(../img/female3.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+}
+
 .img > .card {
     float: left;
 }
@@ -55,7 +89,22 @@ header {
 
 section > .card {
     float: left;
-    
+    margin-right: 20px;
+    margin-bottom: 40px;  
 }
+
+.email {
+    color: #1E8DCA;
+}
+
+h1 {
+   color: #E53170;
+   margin-bottom: 50px;
+   font-size: 40px;
+}
+.nome {
+    font-size: 20px;
+}
+
 
 
