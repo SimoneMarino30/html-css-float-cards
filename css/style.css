@@ -18,6 +18,14 @@ img {
     clear: both;
 }
 
+/* float */
+
+section>.card {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
 /* Utils */
 
 body {
@@ -27,9 +35,18 @@ body {
 header {
     text-align: center;
 }
+
 .container {
     margin: 0 110px 0 110px;
 }
+
+h1 {
+    color: #E53170;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+/* Cards + bg-immagini */
 
 .card {
     width: 400px;
@@ -38,7 +55,6 @@ header {
     color: white;
     padding: 20px 0;
     max-width: 100%;
-    /* text-align: center; */
 }
 
 .card.marco {
@@ -77,31 +93,16 @@ header {
     background-size: 30%;
 }
 
-.img > .card {
-    float: left;
-}
-
 .card > span {
     line-height: 35px;
     margin-top: 100px;
     margin-left: 180px;
 }
 
-section > .card {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 40px;  
-}
-
 .email {
     color: #1E8DCA;
 }
 
-h1 {
-   color: #E53170;
-   margin-bottom: 50px;
-   font-size: 40px;
-}
 .nome {
     font-size: 20px;
 }
